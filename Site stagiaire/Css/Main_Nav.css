@@ -1,0 +1,87 @@
+/* Barre de navigation /
+/ . pour class et # pour id */
+
+#barredenav {
+    display: flex;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgba(255, 255, 255, 0.911);
+    height: 65px;
+}
+
+#btnmenu,
+#btnauth {
+    margin-left: 1%;
+    margin-right: 1%;
+    color: #2f2f2f;
+    border: none;
+    margin-top: 6px;
+}
+
+#btnauth {
+    position: absolute;
+    margin: auto;
+    right: 1%;
+}
+
+#btnmenu:hover,
+#btnauth:hover {
+    margin-left: 1%;
+    margin-right: 1%;
+    color: #2f2f2f;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+#btnmenu:active,
+#btnauth:active {
+    outline: none;
+    border-style: none;
+}
+
+#btnauth:hover {
+    color: black;
+    position: absolute;
+    margin: auto;
+    right: 1%;
+}
+
+#titrebarredenav {
+    color: #2f2f2f;
+    font-size: 40px;
+    font-weight: bold;
+    padding-top: 12px;
+    padding-left: -1%;
+}
+
+#imagemenu {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5%;
+}
+
+#offcanvasExample {
+    background-color: white;
+}
+
+#offcanvasExampleLabel {
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #2f2f2f;
+}
+
+.cacheboutton {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+#imgnav {
+    width: 55px;
+    height: 55px;
+    margin-left: 30%;
+}
+
+#espacebouton
+{
+    margin-right: 2%;
+}

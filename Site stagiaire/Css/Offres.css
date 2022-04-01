@@ -1,0 +1,32 @@
+/* Barre de navigation */
+
+/* . pour class et # pour id */
+
+#upperoffres
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-top: 10px;
+    margin-bottom: 0.5%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+#titrepage
+{
+    font-weight: bolder;
+}
+
+#legendetitre
+{
+    font-style: italic;
+}
+
+#cardimage
+{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}

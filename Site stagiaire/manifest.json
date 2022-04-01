@@ -1,0 +1,25 @@
+{
+    "manifest_version": 3,
+    "name": "Adopt a stag",
+    "short_name": "AAS",
+    "start_url": "Accueil.php",
+    "display": "standalone",
+    "background_color": "white",
+    "theme_color": "white",
+    "orientation": "portrait-primary",
+    "icons": [{
+            "src": "Images/aaslogo3.png",
+            "type": "image/png",
+            "sizes": "144x144",
+            "purpose": "any maskable"
+        },
+        {
+
+            "src": "Images/aaslogo3.png",
+            "type": "image/png",
+            "sizes": "512x512"
+
+        }
+
+    ]
+}
